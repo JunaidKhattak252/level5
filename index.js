@@ -9,7 +9,7 @@ const app=express()
 
 app.get('/health',(req,res)=>{
     return res.status(200).json({
-        message:"All is good"
+        message:"All is well........."
     })
 })
 
