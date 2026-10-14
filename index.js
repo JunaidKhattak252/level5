@@ -15,7 +15,7 @@ app.get('/health',(req,res)=>{
 
 app.get("/",(req,res)=>{
     return res.status(200).json({
-        message:"Hello Junaid:::v2"
+        message:"Hello from ci/cd.......:::v2"
     })
 })
 
